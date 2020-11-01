@@ -1,0 +1,21 @@
+.homePage {
+    &_contents {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        &_title {
+            margin-top: 20vh;
+        }
+        &_btn {
+            display: block;
+            max-width: 400px;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 30px;
+            background: #fd5068;
+            color: #fff;
+        }
+    }
+}

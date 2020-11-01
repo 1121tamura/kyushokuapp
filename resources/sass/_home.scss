@@ -1,0 +1,25 @@
+.homePage {
+    &_contents {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        &_title {
+            margin-top: 10vh;
+        }
+        &_btn {
+            display: block;
+            width: 300px;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 30px;
+            background: #061df0;
+            color: #fff;
+            //追加
+            position: relative;
+            right: 450px;
+            top: 30px;
+        }
+    }
+}
