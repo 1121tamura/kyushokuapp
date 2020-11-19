@@ -1,21 +1,25 @@
-.homePage {
+.homePageRight {
     &_contents {
-        height: 40vh;
+        height: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        text-align: center;
+        text-align: right;
         &_title {
-            margin-top: 20vh;
+            margin-top: 10vh;
         }
         &_btn {
             display: block;
-            max-width: 400px;
+            width: 300px;
             padding: 20px;
             margin: 0 auto;
             border-radius: 30px;
-            background: #fd5068;
+            background: #0745f0;
             color: #fff;
+            //追加
+            position: relative;
+            left: 100px;
+            top: 30px;
         }
     }
 }

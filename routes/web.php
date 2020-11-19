@@ -24,3 +24,5 @@ Route::get('/tokuisakiadd', 'tokuisakiMasterController@index')->name('tokuisakia
 Route::get('/seisanshaAdd', 'seisanshaMasterController@index')->name('seisanshaAdd');
 Route::get('/jushoAdd', 'jushoMasterController@index')->name('jushoAdd');
 Route::get('/taniAdd', 'taniMasterController@index')->name('taniAdd');
+Route::get('/nouhin', 'nouhinController@index')->name('nouhin');
+Route::get('/seikyuPrint', 'seikyuPrintController@index')->name('seikyuPrint');

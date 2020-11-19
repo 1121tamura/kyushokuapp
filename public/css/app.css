@@ -17048,7 +17048,7 @@ readers do not read off random characters that represent icons */
 }
 
 .loginPage_contents {
-  height: 40vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17069,28 +17069,113 @@ readers do not read off random characters that represent icons */
   color: #fff;
 }
 
-.homePage_contents {
-  height: 10vh;
+.container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: left;
+  width: 100%;
+  max-width: 960px;
+  justify-content: space-around;
+  text-align: center;
 }
 
-.homePage_contents_title {
-  margin-top: 10vh;
+.homePage1_contents {
+  height: 10vh;
 }
 
-.homePage_contents_btn {
+.homePage1_contents_btn {
   display: block;
   width: 300px;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 30px;
-  background: #061df0;
+  background: #fd96d2;
   color: #fff;
+}
+
+.homePage2_contents {
+  height: 10vh;
+}
+
+.homePage2_contents_btn {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #fd96d2;
+  color: #fff;
+}
+
+.signinPage {
+  margin-top: 10vh;
+}
+
+.signinPage .title {
+  color: #fd5068;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.signinPage .userIcon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #fd5068;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signinPage .loginBtn {
+  padding: 12px;
+  width: 200px;
+  border-radius: 21px;
+  background: #fd5068;
+  color: #fff;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  opacity: 1;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.signinPage .loginBtn:hover {
+  opacity: 0.7;
+}
+
+.signinPage .errorMessage {
+  color: #fd5068;
+}
+
+.col-md-2 {
+  background-color: dimgrey;
+  margin-top: 0;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.card {
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+.col-md-2 .card-body {
+  padding: 0;
+}
+
+.col-md-2 ul {
+  margin: 0;
+  padding: 0;
   position: relative;
-  right: 450px;
-  top: 30px;
+}
+
+.col-md-2 ul li {
+  line-height: 1.8;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+  list-style-type: none !important;
+  background: linear-gradient(to bottom, whitesmoke 0%, #dadada 100%);
+  text-shadow: 1px 1px 1px whitesmoke;
+  color: black;
 }
 

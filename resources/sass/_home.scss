@@ -1,25 +1,62 @@
-.homePage {
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    //background-color: aqua;
+    justify-content: space-around;
+    //margin-right: auto;
+    //margin-left: auto;
+    //position: relative;
+    text-align: center;
+}
+
+.homePage1 {
     &_contents {
         height: 10vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: left;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: space-between;
+        //text-align: left;
         &_title {
-            margin-top: 10vh;
+            //margin-top: 10vh;
         }
         &_btn {
             display: block;
             width: 300px;
             padding: 20px;
             margin: 0 auto;
-            border-radius: 30px;
-            background: #061df0;
+            //border-radius: 30px;
+            background: #fd96d2;
             color: #fff;
             //追加
-            position: relative;
-            right: 450px;
-            top: 30px;
+            //position: relative;
+            //left: 1px;
+            //top: 150px;
+        }
+    }
+}
+.homePage2 {
+    &_contents {
+        height: 10vh;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: space-between;
+        //text-align: right;
+        &_title {
+            //margin-top: 10vh;
+        }
+        &_btn {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 0 auto;
+            //border-radius: 30px;
+            background: #fd96d2;
+            color: #fff;
+            //追加
+            //position: relative;
+            //left: 16px;
+            //top: 3px;
         }
     }
 }
